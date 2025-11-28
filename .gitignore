@@ -1,5 +1,10 @@
 venv/
 __pycache__/
 *.pyc
-*.pkl
 *.xlsx
+
+# Ignorar todos los archivos .pkl
+*.pkl
+
+# Excepto el car_model_pack.pkl
+!car_model_pack.pkl
